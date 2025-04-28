@@ -8,6 +8,6 @@ namespace Task1
 {
     public interface ISearchable
     {
-        public void Search(string word);
+        void Search(string word);
     }
 }
