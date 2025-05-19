@@ -29,6 +29,8 @@ catStore.AddPet(new Cat("Amon","Cat", 18, false, 9));
 PetStore<Fish> fishStore = new PetStore<Fish>();
 fishStore.AddPet(new Fish("Nemo", "Fish", 1, "Orange and White", "Small"));
 fishStore.AddPet(new Fish("Dory", "Fish", 2, "Blue", "Medium"));
+Fish fish = new Fish("Nemo", "Fish", 1, "Orange and White", "Small");
+fish.PrintInfo();
 
 dogStore.BuyPet("Aron");
 catStore.BuyPet("Amon");
